@@ -40,7 +40,7 @@ genv.ALLOWED_ANIMALS = {
     "Capitano Moby",
     "Cooki and Milki",
     "Arcadragon",
-    "Burguro and Fryuro",
+    "Burguro And Fryuro",
     "Ketupat Bros",
     "Reinito Sleighito",
     "Fortunu and Cashuru",
